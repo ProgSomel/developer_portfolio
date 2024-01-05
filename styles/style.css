@@ -3,6 +3,8 @@
 /*! Shared Styles  */
 * {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .text-primary {
@@ -24,6 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -47,4 +50,46 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/*! header related Styles  */
+.header {
+  background-color: #fff8f3;
+  background-image: url('../images/developer.png');
+  background-repeat: no-repeat;
+  
+}
+
+/*! Banner Styles  */
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0px 200px;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.banner img {
+  width: 500px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+}
+
+.banner-heading {
+    color: #181818;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 1px;
+}
+
+.banner-des {
+    margin-bottom: 15px;
 }
