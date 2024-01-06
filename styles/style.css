@@ -132,3 +132,18 @@ main {
 .about-info {
     text-align: center;
 }
+
+/*! What I Do Section  */
+#what-i-do-des {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+  
+}
+
+.skill {
+  padding: 30px;
+}
